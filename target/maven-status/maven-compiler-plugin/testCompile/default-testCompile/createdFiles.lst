@@ -1,5 +1,7 @@
 com\cucumber\stepdefinition\Stepdefinnition.class
 com\cucumber\Baseclass.class
 com\cucumber\Testclass.class
+com\cucumber\stepdefinition\StepDefintion_demo.class
 com\cucumber\runner\TestRunner2.class
+com\cucumber\stepdefinition\Hooks.class
 com\cucumber\runner\TestRunner.class

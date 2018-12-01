@@ -1,33 +1,12 @@
 [
   {
-    "line": 2,
+    "line": 1,
     "elements": [
-      {
-        "line": 5,
-        "name": "Launch The browser",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 248971522,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "User launch application",
-            "match": {
-              "location": "StepDefintion_demo.user_launch_application()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
       {
         "before": [
           {
             "result": {
-              "duration": 630310,
+              "duration": 929163,
               "status": "passed"
             },
             "match": {
@@ -36,7 +15,7 @@
           },
           {
             "result": {
-              "duration": 141276,
+              "duration": 87543,
               "status": "passed"
             },
             "match": {
@@ -44,14 +23,14 @@
             }
           }
         ],
-        "line": 10,
-        "name": "User verifies login",
+        "line": 4,
+        "name": "User verifies login functionality of the application",
         "description": "",
-        "id": "cucumber-demo;user-verifies-login",
+        "id": "amazon-application-end-to-end-test-cases;user-verifies-login-functionality-of-the-application",
         "after": [
           {
             "result": {
-              "duration": 123164,
+              "duration": 92373,
               "status": "passed"
             },
             "match": {
@@ -60,7 +39,7 @@
           },
           {
             "result": {
-              "duration": 90561,
+              "duration": 74261,
               "status": "passed"
             },
             "match": {
@@ -73,423 +52,149 @@
         "steps": [
           {
             "result": {
-              "duration": 134031,
+              "duration": 6096001400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User launch the chrome browser",
+            "match": {
+              "location": "Stepdefinnition.user_launch_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5972005579,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User hit the amazon application",
+            "match": {
+              "location": "Stepdefinnition.user_hit_the_amazon_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1966402226,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User mouse over the show by category menu",
+            "match": {
+              "location": "Stepdefinnition.user_mouse_over_the_show_by_category_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 180464642,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User mouse over the mobile,application menu",
+            "match": {
+              "location": "Stepdefinnition.user_mouse_over_the_mobile_application_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 231480441,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User mouse over the subcategory powerbank",
+            "match": {
+              "location": "Stepdefinnition.user_mouse_over_the_subcategory_powerbank()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3406805407,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click the subcategory powerbank",
+            "match": {
+              "location": "Stepdefinnition.user_click_the_subcategory_powerbank()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3261592195,
               "status": "passed"
             },
             "line": 11,
-            "name": "User enter username",
+            "name": "User click the powerbank image",
             "match": {
-              "location": "StepDefintion_demo.user_enter_username()"
+              "location": "Stepdefinnition.user_click_the_powerbank_image()"
             },
-            "keyword": "When "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 668949,
+              "duration": 1102085937,
               "status": "passed"
             },
             "line": 12,
-            "name": "User enter password",
+            "name": "User click the powerbank item",
             "match": {
-              "location": "StepDefintion_demo.user_enter_password()"
+              "location": "Stepdefinnition.user_click_the_powerbank_item()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 3335084,
+              "duration": 2542009744,
               "status": "passed"
             },
             "line": 13,
-            "name": "User verifies crendentials",
+            "name": "User click the Add to cart",
             "match": {
-              "location": "StepDefintion_demo.user_verifies_crendentials()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 9,
-            "name": "@Scenario1"
-          },
-          {
-            "line": 9,
-            "name": "@Scenario3"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "Launch The browser",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 88750,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "User launch application",
-            "match": {
-              "location": "StepDefintion_demo.user_launch_application()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 79695,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.beforeHook()"
-            }
-          },
-          {
-            "result": {
-              "duration": 60979,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.beforeHook_1()"
-            }
-          }
-        ],
-        "line": 16,
-        "name": "User verifies login by passing paramters",
-        "description": "",
-        "id": "cucumber-demo;user-verifies-login-by-passing-paramters",
-        "after": [
-          {
-            "result": {
-              "duration": 328437,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.afterHook()"
-            }
-          },
-          {
-            "result": {
-              "duration": 287986,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.afterHook_1()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 4677812,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "User enter username \u0027ABC\u0027",
-            "match": {
-              "arguments": [
-                {
-                  "val": "ABC",
-                  "offset": 21
-                }
-              ],
-              "location": "StepDefintion_demo.user_enter_usernam(String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 4788297,
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.fail(Assert.java:95)\r\n\tat com.cucumber.stepdefinition.StepDefintion_demo.user_enter_passwor(StepDefintion_demo.java:43)\r\n\tat ✽.And User enter password \u0027@XYZ\u0027(Cucumber_Demo.feature:18)\r\n",
-              "status": "failed"
-            },
-            "line": 18,
-            "name": "User enter password \u0027@XYZ\u0027",
-            "match": {
-              "arguments": [
-                {
-                  "val": "@XYZ",
-                  "offset": 21
-                }
-              ],
-              "location": "StepDefintion_demo.user_enter_passwor(String)"
+              "location": "Stepdefinnition.user_click_the_Add_to_cart()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4044279220,
+              "status": "passed"
             },
-            "line": 19,
-            "name": "User verifies crendentials",
+            "line": 14,
+            "name": "User click the cart",
             "match": {
-              "location": "StepDefintion_demo.user_verifies_crendentials()"
+              "location": "Stepdefinnition.user_click_the_cart()"
             },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
+            "keyword": "And "
+          },
           {
+            "result": {
+              "duration": 2967985848,
+              "status": "passed"
+            },
             "line": 15,
-            "name": "@Scenario3"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "Launch The browser",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 141880,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "User launch application",
+            "name": "User checkout the item",
             "match": {
-              "location": "StepDefintion_demo.user_launch_application()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 131012,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.beforeHook()"
-            }
-          },
-          {
-            "result": {
-              "duration": 105052,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.beforeHook_1()"
-            }
-          }
-        ],
-        "line": 33,
-        "name": "User verifies login using list of data",
-        "description": "",
-        "id": "cucumber-demo;user-verifies-login-using-list-of-data",
-        "after": [
-          {
-            "result": {
-              "duration": 152747,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.afterHook()"
-            }
-          },
-          {
-            "result": {
-              "duration": 59771,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.afterHook_1()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 2797148,
-              "status": "passed"
-            },
-            "line": 34,
-            "name": "User enter username and password",
-            "match": {
-              "location": "StepDefintion_demo.user_enter_username_and_password(DataTable)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "ABC",
-                  "xyz"
-                ],
-                "line": 35
-              },
-              {
-                "cells": [
-                  "MNO",
-                  "XYZ"
-                ],
-                "line": 36
-              }
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 153954,
-              "status": "passed"
-            },
-            "line": 37,
-            "name": "User verifies crendentials",
-            "match": {
-              "location": "StepDefintion_demo.user_verifies_crendentials()"
+              "location": "Stepdefinnition.user_checkout_the_item()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 32,
-            "name": "@Scenario1"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "Launch The browser",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 324211,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "User launch application",
-            "match": {
-              "location": "StepDefintion_demo.user_launch_application()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 92977,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.beforeHook()"
-            }
-          },
-          {
-            "result": {
-              "duration": 94184,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.beforeHook_1()"
-            }
-          }
-        ],
-        "line": 39,
-        "name": "User verifies login using list of map",
-        "description": "",
-        "id": "cucumber-demo;user-verifies-login-using-list-of-map",
-        "after": [
-          {
-            "result": {
-              "duration": 237875,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.afterHook()"
-            }
-          },
-          {
-            "result": {
-              "duration": 216140,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.afterHook_1()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 553030,
-              "status": "passed"
-            },
-            "line": 40,
-            "name": "User enter username and password using map",
-            "match": {
-              "location": "StepDefintion_demo.user_enter_username_and_password_using_map(DataTable)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "Username",
-                  "Password"
-                ],
-                "line": 41
-              },
-              {
-                "cells": [
-                  "ABC",
-                  "XYZ"
-                ],
-                "line": 42
-              },
-              {
-                "cells": [
-                  "XYZ",
-                  "MNO"
-                ],
-                "line": 43
-              }
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 270478,
-              "status": "passed"
-            },
-            "line": 44,
-            "name": "User verifies crendentials",
-            "match": {
-              "location": "StepDefintion_demo.user_verifies_crendentials()"
-            },
-            "keyword": "Then "
+            "line": 3,
+            "name": "@Amazonn"
           }
         ]
       }
     ],
-    "name": "Cucumber demo",
-    "description": "description",
-    "id": "cucumber-demo",
+    "name": "Amazon application end to end test cases",
+    "description": "",
+    "id": "amazon-application-end-to-end-test-cases",
     "keyword": "Feature",
-    "uri": "Cucumber_Demo.feature",
-    "tags": [
-      {
-        "line": 1,
-        "name": "@Cucumeber_demo"
-      }
-    ]
+    "uri": "cucumber.feature"
   }
 ]

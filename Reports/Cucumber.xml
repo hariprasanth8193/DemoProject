@@ -1,36 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="0.269738">
-<testcase classname="Cucumber demo" name="User verifies login" time="0.254095">
-<system-out><![CDATA[Given User launch application...............................................passed
-When User enter username....................................................passed
-And User enter password.....................................................passed
-Then User verifies crendentials.............................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Cucumber demo" name="User verifies login by passing paramters" time="0.010312">
-<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:95)&#13;&#10;&#9;at com.cucumber.stepdefinition.StepDefintion_demo.user_enter_passwor(StepDefintion_demo.java:43)&#13;&#10;&#9;at ✽.And User enter password '@XYZ'(Cucumber_Demo.feature:18)&#13;&#10;"><![CDATA[Given User launch application...............................................passed
-When User enter username 'ABC'..............................................passed
-And User enter password '@XYZ'..............................................failed
-Then User verifies crendentials.............................................skipped
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.fail(Assert.java:95)
-	at com.cucumber.stepdefinition.StepDefintion_demo.user_enter_passwor(StepDefintion_demo.java:43)
-	at ✽.And User enter password '@XYZ'(Cucumber_Demo.feature:18)
-]]></failure>
-</testcase>
-<testcase classname="Cucumber demo" name="User verifies login using list of data" time="0.003542">
-<system-out><![CDATA[Given User launch application...............................................passed
-When User enter username and password.......................................passed
-Then User verifies crendentials.............................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Cucumber demo" name="User verifies login using list of map" time="0.001789">
-<system-out><![CDATA[Given User launch application...............................................passed
-When User enter username and password using map.............................passed
-Then User verifies crendentials.............................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="31.772296">
+<testcase classname="Amazon application end to end test cases" name="User verifies login functionality of the application" time="31.772296">
+<system-out><![CDATA[Given User launch the chrome browser........................................passed
+When User hit the amazon application........................................passed
+And User mouse over the show by category menu...............................passed
+And User mouse over the mobile,application menu.............................passed
+And User mouse over the subcategory powerbank...............................passed
+And User click the subcategory powerbank....................................passed
+And User click the powerbank image..........................................passed
+And User click the powerbank item...........................................passed
+And User click the Add to cart..............................................passed
+And User click the cart.....................................................passed
+Then User checkout the item.................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

@@ -13,7 +13,7 @@ import cucumber.api.junit.Cucumber;
 
 		// tags = { "@Scenario1,@Scenario3" })
 
-		tags = { "@Cucumeber_demo", "~@Ignore" }, monochrome = true, dryRun = false, strict = false, plugin = { "pretty",
+		tags = { "@Amazonn", "~@Ignore" }, monochrome = true, dryRun = false, strict = false, plugin = { "pretty",
 				"html:Reports", "json:Reports/Cucumber.json", "junit:Reports/Cucumber.xml" })
 
 public class TestRunner {

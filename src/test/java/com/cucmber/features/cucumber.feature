@@ -1,5 +1,6 @@
 Feature: Amazon application end to end test cases
 
+@Amazonn
 Scenario: User verifies login functionality of the application
 Given User launch the chrome browser
 When User hit the amazon application
