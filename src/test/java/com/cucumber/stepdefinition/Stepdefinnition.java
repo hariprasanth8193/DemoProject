@@ -21,8 +21,8 @@ static Testclass testclass = new Testclass(driver);;
 
 @Given("^User launch the chrome browser$")
 public void user_launch_the_chrome_browser() throws Throwable {
-   String browserName = System.getProperty("Browser");
-	driver = browsers(browserName);
+  // String browserName = System.getProperty("Browser");
+	driver = browsers("Chrome");
 	
 }
 

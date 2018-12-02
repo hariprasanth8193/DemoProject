@@ -1,380 +1,171 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Cucumber_Demo.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("cucumber.feature");
 formatter.feature({
-  "line": 2,
-  "name": "Cucumber demo",
-  "description": "description",
-  "id": "cucumber-demo",
-  "keyword": "Feature",
-  "tags": [
-    {
-      "line": 1,
-      "name": "@Cucumeber_demo"
-    }
-  ]
-});
-formatter.before({
-  "duration": 630310,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 141276,
-  "status": "passed"
-});
-formatter.background({
-  "line": 5,
-  "name": "Launch The browser",
+  "line": 1,
+  "name": "Amazon application end to end test cases",
   "description": "",
-  "type": "background",
-  "keyword": "Background"
+  "id": "amazon-application-end-to-end-test-cases",
+  "keyword": "Feature"
 });
-formatter.step({
-  "line": 6,
-  "name": "User launch application",
-  "keyword": "Given "
+formatter.before({
+  "duration": 929163,
+  "status": "passed"
 });
-formatter.match({
-  "location": "StepDefintion_demo.user_launch_application()"
-});
-formatter.result({
-  "duration": 248971522,
+formatter.before({
+  "duration": 87543,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 10,
-  "name": "User verifies login",
+  "line": 4,
+  "name": "User verifies login functionality of the application",
   "description": "",
-  "id": "cucumber-demo;user-verifies-login",
+  "id": "amazon-application-end-to-end-test-cases;user-verifies-login-functionality-of-the-application",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 9,
-      "name": "@Scenario1"
-    },
-    {
-      "line": 9,
-      "name": "@Scenario3"
+      "line": 3,
+      "name": "@Amazonn"
     }
   ]
 });
 formatter.step({
-  "line": 11,
-  "name": "User enter username",
+  "line": 5,
+  "name": "User launch the chrome browser",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 6,
+  "name": "User hit the amazon application",
   "keyword": "When "
 });
 formatter.step({
+  "line": 7,
+  "name": "User mouse over the show by category menu",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 8,
+  "name": "User mouse over the mobile,application menu",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "User mouse over the subcategory powerbank",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "User click the subcategory powerbank",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "User click the powerbank image",
+  "keyword": "And "
+});
+formatter.step({
   "line": 12,
-  "name": "User enter password",
+  "name": "User click the powerbank item",
   "keyword": "And "
 });
 formatter.step({
   "line": 13,
-  "name": "User verifies crendentials",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "StepDefintion_demo.user_enter_username()"
-});
-formatter.result({
-  "duration": 134031,
-  "status": "passed"
-});
-formatter.match({
-  "location": "StepDefintion_demo.user_enter_password()"
-});
-formatter.result({
-  "duration": 668949,
-  "status": "passed"
-});
-formatter.match({
-  "location": "StepDefintion_demo.user_verifies_crendentials()"
-});
-formatter.result({
-  "duration": 3335084,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 123164,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 90561,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 79695,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 60979,
-  "status": "passed"
-});
-formatter.background({
-  "line": 5,
-  "name": "Launch The browser",
-  "description": "",
-  "type": "background",
-  "keyword": "Background"
-});
-formatter.step({
-  "line": 6,
-  "name": "User launch application",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "StepDefintion_demo.user_launch_application()"
-});
-formatter.result({
-  "duration": 88750,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 16,
-  "name": "User verifies login by passing paramters",
-  "description": "",
-  "id": "cucumber-demo;user-verifies-login-by-passing-paramters",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 15,
-      "name": "@Scenario3"
-    }
-  ]
-});
-formatter.step({
-  "line": 17,
-  "name": "User enter username \u0027ABC\u0027",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 18,
-  "name": "User enter password \u0027@XYZ\u0027",
+  "name": "User click the Add to cart",
   "keyword": "And "
 });
 formatter.step({
-  "line": 19,
-  "name": "User verifies crendentials",
+  "line": 14,
+  "name": "User click the cart",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 15,
+  "name": "User checkout the item",
   "keyword": "Then "
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "ABC",
-      "offset": 21
-    }
-  ],
-  "location": "StepDefintion_demo.user_enter_usernam(String)"
+  "location": "Stepdefinnition.user_launch_the_chrome_browser()"
 });
 formatter.result({
-  "duration": 4677812,
+  "duration": 6096001400,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "@XYZ",
-      "offset": 21
-    }
-  ],
-  "location": "StepDefintion_demo.user_enter_passwor(String)"
+  "location": "Stepdefinnition.user_hit_the_amazon_application()"
 });
 formatter.result({
-  "duration": 4788297,
-  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.fail(Assert.java:95)\r\n\tat com.cucumber.stepdefinition.StepDefintion_demo.user_enter_passwor(StepDefintion_demo.java:43)\r\n\tat ✽.And User enter password \u0027@XYZ\u0027(Cucumber_Demo.feature:18)\r\n",
-  "status": "failed"
-});
-formatter.match({
-  "location": "StepDefintion_demo.user_verifies_crendentials()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.after({
-  "duration": 328437,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 287986,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 131012,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 105052,
-  "status": "passed"
-});
-formatter.background({
-  "line": 5,
-  "name": "Launch The browser",
-  "description": "",
-  "type": "background",
-  "keyword": "Background"
-});
-formatter.step({
-  "line": 6,
-  "name": "User launch application",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "StepDefintion_demo.user_launch_application()"
-});
-formatter.result({
-  "duration": 141880,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 33,
-  "name": "User verifies login using list of data",
-  "description": "",
-  "id": "cucumber-demo;user-verifies-login-using-list-of-data",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 32,
-      "name": "@Scenario1"
-    }
-  ]
-});
-formatter.step({
-  "line": 34,
-  "name": "User enter username and password",
-  "rows": [
-    {
-      "cells": [
-        "ABC",
-        "xyz"
-      ],
-      "line": 35
-    },
-    {
-      "cells": [
-        "MNO",
-        "XYZ"
-      ],
-      "line": 36
-    }
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 37,
-  "name": "User verifies crendentials",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "StepDefintion_demo.user_enter_username_and_password(DataTable)"
-});
-formatter.result({
-  "duration": 2797148,
+  "duration": 5972005579,
   "status": "passed"
 });
 formatter.match({
-  "location": "StepDefintion_demo.user_verifies_crendentials()"
+  "location": "Stepdefinnition.user_mouse_over_the_show_by_category_menu()"
 });
 formatter.result({
-  "duration": 153954,
+  "duration": 1966402226,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Stepdefinnition.user_mouse_over_the_mobile_application_menu()"
+});
+formatter.result({
+  "duration": 180464642,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Stepdefinnition.user_mouse_over_the_subcategory_powerbank()"
+});
+formatter.result({
+  "duration": 231480441,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Stepdefinnition.user_click_the_subcategory_powerbank()"
+});
+formatter.result({
+  "duration": 3406805407,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Stepdefinnition.user_click_the_powerbank_image()"
+});
+formatter.result({
+  "duration": 3261592195,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Stepdefinnition.user_click_the_powerbank_item()"
+});
+formatter.result({
+  "duration": 1102085937,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Stepdefinnition.user_click_the_Add_to_cart()"
+});
+formatter.result({
+  "duration": 2542009744,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Stepdefinnition.user_click_the_cart()"
+});
+formatter.result({
+  "duration": 4044279220,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Stepdefinnition.user_checkout_the_item()"
+});
+formatter.result({
+  "duration": 2967985848,
   "status": "passed"
 });
 formatter.after({
-  "duration": 152747,
+  "duration": 92373,
   "status": "passed"
 });
 formatter.after({
-  "duration": 59771,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 92977,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 94184,
-  "status": "passed"
-});
-formatter.background({
-  "line": 5,
-  "name": "Launch The browser",
-  "description": "",
-  "type": "background",
-  "keyword": "Background"
-});
-formatter.step({
-  "line": 6,
-  "name": "User launch application",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "StepDefintion_demo.user_launch_application()"
-});
-formatter.result({
-  "duration": 324211,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 39,
-  "name": "User verifies login using list of map",
-  "description": "",
-  "id": "cucumber-demo;user-verifies-login-using-list-of-map",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 40,
-  "name": "User enter username and password using map",
-  "rows": [
-    {
-      "cells": [
-        "Username",
-        "Password"
-      ],
-      "line": 41
-    },
-    {
-      "cells": [
-        "ABC",
-        "XYZ"
-      ],
-      "line": 42
-    },
-    {
-      "cells": [
-        "XYZ",
-        "MNO"
-      ],
-      "line": 43
-    }
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 44,
-  "name": "User verifies crendentials",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "StepDefintion_demo.user_enter_username_and_password_using_map(DataTable)"
-});
-formatter.result({
-  "duration": 553030,
-  "status": "passed"
-});
-formatter.match({
-  "location": "StepDefintion_demo.user_verifies_crendentials()"
-});
-formatter.result({
-  "duration": 270478,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 237875,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 216140,
+  "duration": 74261,
   "status": "passed"
 });
 });
